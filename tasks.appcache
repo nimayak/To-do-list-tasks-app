@@ -1,0 +1,20 @@
+CACHE MANIFEST
+# version 3
+tasks.html
+scripts/date.js
+scripts/jquery.validate117.js
+scripts/jquery-3.2.1.js
+scripts/jquery-tmpl.js
+scripts/jquery-serialization.js
+scripts/tasks-controller.js
+scripts/tasks-indexeddb.js
+scripts/tasks-webStorage.js
+scripts/jquery.csv.js
+styles/tasks.css
+
+FALLBACK:
+scripts/tasks=indexeddb.js scripts/tasks-indexeddb.js
+scripts/tasks-webStorage.js scripts/tasks-webStorage.js
+
+NETWORK:
+*
